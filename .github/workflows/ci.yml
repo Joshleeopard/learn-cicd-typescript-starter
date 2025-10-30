@@ -18,5 +18,8 @@ jobs:
         with:
           node-version: 18
 
+      - name: Install Dependencies
+        run: npm ci
+
       - name: Last Step
-        run: node --version
+        run: npm run test
