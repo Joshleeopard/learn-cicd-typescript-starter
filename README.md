@@ -1,4 +1,4 @@
-![Tests done!](badge.svg)
+
 https://github.com/Joshleeopard/learn-cicd-typescript-starter/actions/workflows/ci.yml/badge.svg
 
 
