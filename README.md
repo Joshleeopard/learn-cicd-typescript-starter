@@ -1,6 +1,6 @@
 https://github.com/joshleeopard/https://github.com/Joshleeopard/learn-cicd-typescript-starter/actions/workflows/ci.yml/badge.svg
 
-![Tests done!](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fsuccess&psig=AOvVaw0nr9vufbA2kYVfIO9r7gzo&ust=1761921455597000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOjQpYiTzJADFQAAAAAdAAAAABAE)
+![Tests done!](badge.svg)
 
 # learn-cicd-typescript-starter (Notely)
 
