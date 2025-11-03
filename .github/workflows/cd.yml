@@ -22,3 +22,15 @@ jobs:
       
       - name: Build app
         run: npm run build
+
+      - name: Authenticate to GCP
+        uses: google-github-actions/setup-gcloud@v3
+        with:
+          project_id: notely-477105
+          service_account_key: ${{ secrets.GCP_CREDENTIALS }}
+
+      - name: Verify gcloud
+        run: gcloud info
+
+      - name: Build and push image to Artifact Registry
+        run: gcloud builds submit --tag us-central1-docker.pkg.dev/notely-477105/notely-repo/notely-app:latest .
