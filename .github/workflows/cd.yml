@@ -29,6 +29,9 @@ jobs:
           project_id: notely-477105
           credentials_json: ${{ secrets.GCP_CREDENTIALS }}
 
+      - name: Verify gcloud auth in runner
+        run: gcloud auth list
+
       - name: Verify gcloud
         run: gcloud info
 
