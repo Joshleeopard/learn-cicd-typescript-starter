@@ -30,7 +30,7 @@ jobs:
           echo "TURSO_AUTH_TOKEN=${{ secrets.TURSO_AUTH_TOKEN }}" >> $GITHUB_ENV
 
       - name: Run database migrations
-        run: npm run migrate
+        run: npm run db:migrate
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
